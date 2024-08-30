@@ -3,6 +3,7 @@ package request
 type Authentication struct {
 	Email    string `json:"email"`
 	Password string `json:"password"`
+	Token    string `json:"token"`
 }
 
 type LoginRequest struct {
